@@ -18,6 +18,7 @@
 		2D6DFE751EA5F58400866F0A /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DFE741EA5F58400866F0A /* Human.m */; };
 		2D6DFE791EA60EDE00866F0A /* MyVc4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DFE781EA60EDE00866F0A /* MyVc4.m */; };
 		2D6DFE7C1EA60F0A00866F0A /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DFE7B1EA60F0A00866F0A /* NSObject+Property.m */; };
+		2D6DFE801EA6295B00866F0A /* MyVc5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D6DFE7F1EA6295B00866F0A /* MyVc5.m */; };
 		2DF11B1C1EA49A5B0091F025 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF11B1B1EA49A5B0091F025 /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +43,8 @@
 		2D6DFE781EA60EDE00866F0A /* MyVc4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVc4.m; sourceTree = "<group>"; };
 		2D6DFE7A1EA60F0A00866F0A /* NSObject+Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Property.h"; sourceTree = "<group>"; };
 		2D6DFE7B1EA60F0A00866F0A /* NSObject+Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Property.m"; sourceTree = "<group>"; };
+		2D6DFE7E1EA6295B00866F0A /* MyVc5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyVc5.h; sourceTree = "<group>"; };
+		2D6DFE7F1EA6295B00866F0A /* MyVc5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyVc5.m; sourceTree = "<group>"; };
 		2DF11B171EA49A5B0091F025 /* YacRuntime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YacRuntime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF11B1B1EA49A5B0091F025 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2DF11B2B1EA49A5B0091F025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -116,6 +119,8 @@
 		2D6DFE7D1EA61D8400866F0A /* 自动生成属性Demo */ = {
 			isa = PBXGroup;
 			children = (
+				2D6DFE7E1EA6295B00866F0A /* MyVc5.h */,
+				2D6DFE7F1EA6295B00866F0A /* MyVc5.m */,
 			);
 			path = "自动生成属性Demo";
 			sourceTree = "<group>";
@@ -237,6 +242,7 @@
 				2D6DFE751EA5F58400866F0A /* Human.m in Sources */,
 				2D6DFE541EA5B86C00866F0A /* UIImage+image.m in Sources */,
 				2DF11B1C1EA49A5B0091F025 /* main.m in Sources */,
+				2D6DFE801EA6295B00866F0A /* MyVc5.m in Sources */,
 				2D6DFE611EA5B94F00866F0A /* AppDelegate.m in Sources */,
 				2D6DFE7C1EA60F0A00866F0A /* NSObject+Property.m in Sources */,
 				2D6DFE681EA5B9B300866F0A /* MyVc2.m in Sources */,
