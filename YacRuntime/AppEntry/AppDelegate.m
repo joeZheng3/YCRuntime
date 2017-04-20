@@ -10,6 +10,8 @@
 #import "MyVc.h"
 #import "MyVc2.h"
 #import "MyVc3.h"
+#import "MyVc4.h"
+#import "MyVc5.h"
 
 @interface AppDelegate ()
 
@@ -23,8 +25,8 @@
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
 #pragma mark - Runtime_发送消息
-    MyVc *vc = [[MyVc alloc]init];
-    self.window.rootViewController = vc;
+//    MyVc *vc = [[MyVc alloc]init];
+//    self.window.rootViewController = vc;
 
 #pragma mark - Runtime_交换方法
 //    MyVc2 *vc = [[MyVc2 alloc]init];
@@ -33,6 +35,14 @@
 #pragma mark - Runtime_动态添加方法
 //    MyVc3 *vc = [[MyVc3 alloc]init];
 //    self.window.rootViewController = vc;
+    
+#pragma mark - Runtime_动态添加属性
+//    MyVc4 *vc = [[MyVc4 alloc]init];
+//    self.window.rootViewController = vc;
+    
+#pragma mark - Runtime_字典转模型
+    MyVc5 *vc = [[MyVc5 alloc]init];
+    self.window.rootViewController = vc;
     
     [self.window makeKeyAndVisible];
     

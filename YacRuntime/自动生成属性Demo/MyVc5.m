@@ -8,6 +8,10 @@
 //
 
 #import "MyVc5.h"
+#import "NSDictionary+Property.h"
+#import "MyEntity.h"
+#import "NSObject+Model.h"
+
 
 @interface MyVc5 ()
 
@@ -18,6 +22,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //假若有一个字典，网络的，本地的也好
+    NSDictionary *dict = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"status.plist" ofType:nil]];
+    //从字典中自动生成属性，方便模型构建
+//    [dict createPropertyCode];
+//    [dict[@"user"] createPropertyCode];
+
+    
+    //字典转模型:KVC或者MJExtension
+    MyEntity *entity = [MyEntity modelWithDict:dict];
+    
+    NSLog(@"%@",entity.pic_urls);
+    
 }
 
 - (void)didReceiveMemoryWarning {
